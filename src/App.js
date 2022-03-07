@@ -13,6 +13,7 @@ import UseImperativeHandle from './Components/useImperativeHandle/UseImperativeH
 import UseEffect from './Components/useEffect/UseEffect';
 import UseContext from './Components/useContext/UseContext';
 import UseCallback from './Components/useCallback/UseCallback';
+import UseReducer from './Components/useReducer/UseReducer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path='/' element={<UseState/>}/>
           <Route path='/useref' element={<UseRef/>}/>
+          <Route path='/usereducer' element={<UseReducer/>}/>
           <Route path='/usememo' element={<UseMemo/>}/>
           <Route path='/uselayout' element={<UseLayoutEffect/>}/>
           <Route path='/useimperative' element={<UseImperativeHandle/>}/>
